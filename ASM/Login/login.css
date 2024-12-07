@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: sans-serif;
+    margin-top: 75px;
+}
+#Header-Container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 75px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.33);
+    z-index: 1000;
+}
+#Header-Nav{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.Header-logo a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: black;
+    font-weight: 900;
+    font-size: 25px   
+}
+
+.Header-ul{
+    display: inline-flex;
+
+}
+.Header-ul li{
+    list-style: none;
+}
+.Header-ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+.Header-ul li a:hover{
+    color: red;
+}
+.Header-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+.Header-icon {
+   
+    display: inline-flex;
+    align-items: center;
+   
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+.nav-item i {
+    font-size: 24px;
+}
+  
+.nav-item span {
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+.divider {
+    height: 24px;
+    width: 1px;
+    background-color: #444444;
+    margin: 0 10px;
+}
+  
+.navbar .fa {
+    cursor: pointer;
+}
+.Header-item a, i{
+    color: black;
+    text-decoration: none;
+}
+#title-login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+
+}
+.login-input h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+.login-input{
+    width: 40%;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+}
+.title-login-1 input{
+
+    outline: 0;
+    border: none;
+    border-bottom: 1 solid rgba(0, 0, 0, 0.445) ;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.449);
+    padding: 12px;
+}
+.title-login-1{
+    margin: 30px;
+}
+.title-login-1 label{
+    font-size: 15px;
+}
+.title-login-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-input .Log-In a{
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 14px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.login-input .Log-In a:hover{
+    background-color: black;
+}
+.Sign-Up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Sign-Up a{
+    color: black;
+    transition: all 0.5s;
+}
+.Sign-Up a:hover{
+    text-decoration: none;
+}
+#Footer{
+    display: flex;
+    color: rgb(214, 214, 214);
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer-item-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Footer a{
+    
+    text-decoration: none;
+}
+
+#Footer ul li{
+    list-style: none;
+}
+#Footer ul li a{
+    display: flex;
+    font-size: 15px;
+    transition: all 0.4s;
+    
+}
+#Footer ul li a:hover{
+    color: red;
+}
+.footer-item-2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px ;
+    border-top: 2px solid rgba(108, 108, 108, 0.681) ;
+}
+.footer-item-2 p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.auto-1{
+    margin-top: 12px;
+}
+
+.auto-1 a{
+    color: rgb(208, 206, 206);
+    transition: all 0.4s;
+}
+.auto-1 a:hover{
+    color: red;
+}
+.auto-1 p{
+    font-size: 15px;
+}
+.menu-item li a{
+    margin-top: 12px;
+    font-size: 12px;
+    color: rgb(208, 206, 206);
+}
+.AutoMaster a{
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+}
+.AutoMaster p{
+    font-size: 12px;
+}
+.footer-item-end h2{
+    font-size: 17px;
+}
+.ovelay{
+    width: 0.5px;
+    height: 25vh;
+    background-color: aliceblue;
+}
+.Log-In button{
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    padding: 14px;
+    outline: 0;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.Log-In:hover button{
+    background-color: black;
+}
+
+

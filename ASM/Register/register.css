@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: sans-serif;
+    margin-top: 75px;
+}
+#Header-Container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 75px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.33);
+    z-index: 1000;
+}
+#Header-Nav{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.Header-logo a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: black;
+    font-weight: 900;
+    font-size: 25px   
+}
+
+.Header-ul{
+    display: inline-flex;
+
+}
+.Header-ul li{
+    list-style: none;
+}
+.Header-ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+.Header-ul li a:hover{
+    color: red;
+}
+.Header-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+.Header-icon {
+   
+    display: inline-flex;
+    align-items: center;
+   
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+.nav-item i {
+    font-size: 24px;
+}
+  
+.nav-item span {
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+.divider {
+    height: 24px;
+    width: 1px;
+    background-color: #444444;
+    margin: 0 10px;
+}
+  
+.navbar .fa {
+    cursor: pointer;
+}
+.Header-item input {
+    width: 100px;
+    height: 25px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+    color: black;
+}
+.Header-item input:hover{
+    width: 125px;
+}
+.Header-item a, i{
+    color: black;
+}
+.fa-user{
+    transition: all 0.3s;
+}
+.fa-user:hover{
+    padding: 1px;
+    border-bottom: 2px solid black ;
+}
+#register{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    
+}
+.register-item{
+    width: 40%;
+    padding: 14px;
+
+}
+
+.register-item h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+.Input-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Input-text input{
+    outline: 0;
+    border: none;
+    padding: 12px;
+    border-bottom: 1 solid rgba(0, 0, 0, 0.445) ;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.449);
+}
+.Input-text label{
+    font-size: 15px;
+}
+.register-sign-up{
+    margin: 30px;
+}
+.Sign-Up button{
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    padding: 14px;
+    outline: 0;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.Sign-Up button:hover{
+    background-color: black;
+}
+.Log-In{
+    display: flex;
+    justify-content: space-between;
+}
+.Log-In a{
+    color: black;
+}
+.Log-In a:hover{
+    text-decoration: none;
+    
+}
+#Footer{
+    display: flex;
+    color: rgb(214, 214, 214);
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.footer-item-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Footer a{
+    
+    text-decoration: none;
+}
+
+#Footer ul li{
+    list-style: none;
+}
+#Footer ul li a{
+    display: flex;
+    font-size: 15px;
+    transition: all 0.4s;
+    
+}
+#Footer ul li a:hover{
+    color: red;
+}
+.footer-item-2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px ;
+    border-top: 2px solid rgba(108, 108, 108, 0.681) ;
+}
+.footer-item-2 p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.auto-1{
+    margin-top: 12px;
+}
+
+.auto-1 a{
+    color: rgb(208, 206, 206);
+    transition: all 0.4s;
+}
+.auto-1 a:hover{
+    color: red;
+}
+.auto-1 p{
+    font-size: 15px;
+}
+.menu-item li a{
+    margin-top: 12px;
+    font-size: 12px;
+    color: rgb(208, 206, 206);
+}
+.AutoMaster a{
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+}
+.AutoMaster p{
+    font-size: 12px;
+}
+.footer-item-end h2{
+    font-size: 17px;
+}
+.ovelay{
+    width: 0.5px;
+    height: 25vh;
+    background-color: aliceblue;
+}
+
